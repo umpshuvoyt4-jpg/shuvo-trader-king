@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>PROFIT HACKER · Signal Board</title>
+<link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+<header><div class="brand"><span class="orb">✦</span><div><b>PROFIT HACKER</b><small>MARKET SCANNER</small></div></div><div class="live"><i></i> LIVE DATA DEMO</div></header>
+<main>
+<section class="hero"><div><p class="eyebrow">AUTOMATED MARKET SCANNER</p><h1>Signal <em>Board</em></h1><p class="sub">EMA + RSI strategy · 1-minute candles</p></div><div class="scan" id="scan">SCANNING MARKET...</div></section>
+<div class="notice">Demo feed: Binance public spot candles. This is not a Quotex price feed and does not execute trades.</div>
+<section id="cards" class="cards"><div class="empty">Connecting to market data…</div></section>
+<section class="panel"><div class="panel-head"><h2>How signals are generated</h2><span>STRATEGY INFO</span></div><p>UP: EMA 9 above EMA 21 with RSI between 50 and 70. DOWN: EMA 9 below EMA 21 with RSI between 30 and 50. Otherwise WAIT.</p><p class="muted">This simple example is educational, can produce false signals, and has not been validated for profitability. Test on a demo account before considering any use.</p></section>
+</main>
+<footer>PROFIT HACKER · SIGNAL BOARD STARTER <span id="updated">Waiting for update</span></footer>
+<script src="/static/app.js"></script>
+</body></html>
